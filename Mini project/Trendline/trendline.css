@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: reem kufi;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*background-color: red;*/
+    justify-content: space-between;
+    padding: 0 40px;
+    font-size: 20px;
+}
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.logo{
+    height: 21px;
+    width: 21px;
+    background-color: black;
+    border-radius: 50%;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+#nav2 h4 span{
+    color: rgb(120, 120, 119);
+    margin: 20px;
+}
+#nav-2{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    font-weight: 400;
+    background-color: white;
+    padding-left: 20px;
+}
+#nav-2 h3{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#cont{
+    height: calc(100% - 130px);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#text-cont{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.elem{
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elem h1{
+    font-size: 70px;
+    font-family: gilroys;
+    font-weight: 200;
+}
+#text-cont::-webkit-scrollbar{
+    background-color: transparent;
+    height: 10px;
+    width: 50%;
+}
+#text-cont::-webkit-scrollbar-thumb{
+    background-color: #c9a082;
+}
+#img{
+    display: flex;
+}
+#img::-webkit-scrollbar{
+    display: none;
+}
+#img img{
+    flex-shrink: 0;
+    width: 100%;
+    height: 429px;
+    object-fit: cover;
+    object-position: 0 20%;
+}
+#img::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+}
+#nav-2:hover h3{
+    text-decoration: underline;
+}
+#navg{
+    display: flex;
+    width: fit-content;
+    gap: 50px;
+}
