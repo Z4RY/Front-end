@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#page1{
+    width: 100%;
+    height: 15%;
+}
+
+#heading{
+    width: 90%;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10vw;
+
+}
+
+#h2{
+    width: 40%;
+    height: inherit;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 6vw;
+    /* background-color: blue; */
+    /* font-size: 2vw; */
+    padding-left: 4vh;
+    padding-top: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+#h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+#h1 a{
+    text-decoration: none;
+    color: black;
+}
+#h1{
+    width: 0;
+    font-size: 2vw;
+    padding-left: 3vh;
+    padding-top: 2vh;
+}
+#h2 h4{
+    font-weight: 200;
+}
+#h3 h4{
+    font-weight: 400;
+}
+
+
+#h3{
+    display: flex;
+    gap: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 4vh;
+    padding-top: 3vh;
+    margin-left: 33vw;
+
+}
+#page2{
+    width: 100%;
+    /* background-color: red; */
+    height: 20vw;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 31vw;
+}
+
+#block1 h2{
+    padding-top: 10vh;
+    padding-left: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+
+}
+#block1 h6{
+    /* padding-top: 1vh; */
+    padding-left: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+#block2{
+    width: 100%;
+    height: 20vh;
+    padding-top: 5vw;
+}
+
+#block2 h4{
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+    font-weight: 200;
+    /* margin-left: 20vh; */
+}
+#view{
+    width: 29%;
+    height: 3.5vw;
+    background-color: black;
+    /* margin-right: 5vw; */
+    align-items: center;
+    /* margin-left: 5.5vh; */
+    margin-top: 7vh;
+    padding-top: 2.3vh;
+    border: 2px solid black;
+}
+#view a{
+    width: 100%;
+    height: 100%;
+    margin-left: 14vh;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    /* background-color: red; */
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    /* border: 2px solid; */
+}
+/* #view a:hover{
+    background-color: white;
+    color: black;
+}
+#view:hover{
+    background-color: white;
+
+} */
+
+#page3{
+    width: 100%;
+    height: 40vh;
+    /* background-color: gray; */
+}
+
+footer{
+    width: 100%;
+    height: 4ovh;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    padding-top: 5vh;
+}
+#f1{
+    width: 60%;
+    height: inherit;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+#box1{
+    width: 40%;
+    height: 50%;
+    /* background-color: rgb(39, 159, 159); */
+    /* margin-top: 16vh; */
+}
+
+#box2{
+    width: 20%;
+    height: 50%;
+    margin-left: 2vw;
+    /* background-color: rgb(6, 249, 249); */
+    /* margin-top: 16vh; */
+}
+#box3{
+    /* margin-top: 16vh; */
+    width: 30%;
+    height: 50%;
+    /* background-color: rgb(129, 222, 222); */
+}
+
+#f2{
+    width: 30%;
+    height: 230pxpx;
+    /* background-color: red; */
+    /* margin-top: 16vh; */
+}
+
+
+#box1 h4{
+    width: 100%;
+    font-weight: 500;
+    margin: 2vh;
+}
+
+#box1 h5{
+    font-weight: 300;
+    margin: 2vh;
+    width: 100%;
+    /* background-color: red; */
+}
+
+
+
+#box2 h4{
+    font-weight: 500;
+    margin: 2vh;
+    width: 100%;
+}
+
+#box2 h5{
+    font-weight: 300;
+    margin: 2vh;
+    width: 100%;
+}
+
+#box3 h4{
+    font-weight: 500;
+    margin: 2vh;
+    width: 100%;
+}
+
+#box3 h5{
+    font-weight: 300;
+    margin: 2vh;
+    width: 100%;
+}
+
+#f2 h4{
+    font-weight: 500;
+    margin: 4vh;
+    width: 100%;
+}
+
+#f2 h5{
+    font-weight: 300;
+    margin: 4vh;
+    width: 100%;
+    line-height: 3vh;
+}
+
+#email{
+    width: 90%;
+    margin-left: 3vh;
+    height: 6vh;
+    border: none;
+    border-bottom: 2px solid black;
+}
